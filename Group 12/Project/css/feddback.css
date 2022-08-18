@@ -1,0 +1,72 @@
+body{
+
+	margin: 0px;
+	padding: 0px;
+}
+
+
+
+/* section tag for all text iteams center*/
+
+section{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+*{
+	font-family: sans-serif;
+	box-sizing: border-box;
+}
+
+
+form{
+	width: 500px;
+	border-radius: 2px solid #ccc;*/
+	padding: 30px;
+	/*background: #fff;*/
+	border-radius: 15px;
+}
+
+
+h2{
+	text-align: center;
+	margin-bottom: 40px;
+}
+
+input{
+	display: block;
+	border: 2px solid #ccc;
+	width: 95%;
+	padding: 10px;
+	margin: 10px auto;
+}
+label{
+	color: black;
+	font-size: 18px;
+	padding: 10px;
+
+}
+textarea{
+	display: block;
+	border: 2px solid #ccc;
+	width: 95%;
+	padding: 30px;
+	margin: 10px auto;
+
+}
+button{
+	background: blue;
+	padding: 10px 15px;
+	color: #fff;
+	border-radius: 5px;
+	border: none;
+	cursor: pointer;
+}
+
+
+/* button hover means opacity dark or light*/
+
+button:hover{
+	opacity: .7;
+}
